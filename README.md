@@ -64,8 +64,8 @@ Tiktokenizer is a web application that calculates the correct number of tokens f
 ### Installation
 
 ```bash
-git clone https://github.com/AayushPanchal-04/Tiktokenizer-.git
-cd Tiktokenizer-
+git clone https://github.com/AayushPanchal-04/Tiktokenizer.git
+cd Tiktokenizer
 yarn install
 ```
 
