@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "installCommand": "yarn install --frozen-lockfile",
+  "buildCommand": "yarn build",
+  "functions": {
+    "src/pages/api/trpc/[trpc].ts": {
+      "maxDuration": 60
+    },
+    "src/pages/api/v1/encode.ts": {
+      "maxDuration": 60
+    }
+  }
+}
